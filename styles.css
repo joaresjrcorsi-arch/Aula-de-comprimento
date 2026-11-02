@@ -1,0 +1,109 @@
+/* 4 */
+h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+/* 5 */
+p::first-letter {
+    text-transform: uppercase;
+}
+
+/* 6 */
+a:hover {
+    text-decoration: none;
+}
+
+/* 7 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+}
+
+/* CT 3, 4 e 5 */
+#primary-list {
+    list-style: none;
+    text-align: center;
+}
+
+/* CT 4 */
+img {
+    display: block;
+    margin: auto;
+    max-width: 150px;
+}
+
+/* Navegação */
+.nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* PD 1 */
+.banner {
+    height: 300px;
+    width: 300px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvmULAwXAMY8OdQqpgrXZxUZC1BD6o1E7Y1WFG_jLHtg&s=10");
+    background-repeat: no-repeat;
+}
+
+/* PD 2 */
+.hide {
+    display: none;
+}
+
+/* ALL 1 */
+body {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+}
+
+/* ALL 2 */
+.header {
+    position: relative;
+    padding: 10px;
+    background-color: rgb(190, 185, 105);
+    width: auto;
+}
+
+.header .nav {
+    text-align: center;
+}
+
+.header .nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* CT 2 - Flex container */
+.products-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    gap: 10px;
+    padding: 0;
+}
+
+/* CT 3 - Flex items */
+.product {
+    text-align: center;
+    border: 1px solid #ccc;
+    flex-basis: 30%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+/* CT 4 - Imagens responsivas */
+.product img {
+    max-width: 100%;
+    max-height: 150px;
+}
